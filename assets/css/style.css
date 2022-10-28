@@ -18,6 +18,20 @@ h6 {
   margin: 0;
 }
 
+.hero-banner{
+  background-color: aquamarine;
+  margin: auto;
+  border: black 5px;
+  background-image: url('images/background_3.jpg');
+}
+
+section h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+}
+
 p {
   margin: 0;
 }
+
+
