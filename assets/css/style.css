@@ -18,9 +18,20 @@ h6 {
   margin: 0;
 }
 
-nav a {
+header {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+nav ul > * {
+  display: inline-flex;
+  list-style-type: none;
+  font-size: 30px;
+  margin: 10px;
+  border: 2px rgb(62, 53, 43) solid;
+  padding: 10px;
+  background-color: rgb(100, 73, 253);
 }
 
 #hero-banner{
@@ -50,5 +61,18 @@ section h2{
 p {
   margin: 0;
 }
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  border: solid black 5px;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px; 
+  /* width and height can be anything, as long as they're equal */
+}
+
+
 
 
