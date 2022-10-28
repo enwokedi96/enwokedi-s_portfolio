@@ -23,11 +23,13 @@ nav a {
 
 }
 
-.hero-banner{
-  margin: 1200px;
-  padding: 50px;
+#hero-banner{
+  margin-bottom: 20px;
+  padding: 600px;
   background-image: url('/images/background_4.jpg');
-  background-color: aquamarine;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(99, 123, 230,0.5);
   border: black 5px;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr 1fr;
@@ -36,7 +38,7 @@ nav a {
       'About Me'
       'Coding Projects'
       'CV'
-      'Contact'
+      'Contact Me'
       ;
 }
 
