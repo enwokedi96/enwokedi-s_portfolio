@@ -7,6 +7,7 @@
   --hobby-w: 20px;
   --hobby-h: 50px;
   --sec-margin-top: 75px;
+  --new-grid-width600: 50px 1fr;
 }
 
 body {
@@ -72,7 +73,7 @@ nav ul > * {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr 1fr;
   grid-template-columns: 1fr 3fr;
-  gap: 1em;
+  grid-gap: 1em;
   grid-template-areas: 
       'about-title about'
       'coding-projects-title coding-projects'
@@ -163,15 +164,26 @@ nav ul > * {
 /* responsive element for screen width <=600px */
 @media screen and (max-width:600px) {
   .page-wrapper{
-    grid-template-rows: 0.25fr 2fr 3fr 2fr 1fr;
+    grid-template-rows: var(--new-grid-width600) var(--new-grid-width600) var(--new-grid-width600) var(--new-grid-width600);
     grid-template-columns: 1fr;
     grid-template-areas: 
-      'blank'
+      'about-title'
       'about'
+      'coding-projects-title'
       'coding-projects'
+      'cv-title'
       'cv'
+      'contact-title'
       'contact'
       ;
+  }
+
+  #about-title,
+  #coding-projects-title,
+  #cv-title,
+  #contact-title
+  {
+    margin-top: 25px;
   }
 }
 
