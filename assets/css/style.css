@@ -112,11 +112,12 @@ nav ul > * {
   margin-top: var(--sec-margin-top);
 }
 
-section h2{
+h2{
   font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   font-size: 15px;
 }
 
+/*hobby grid: image insertions and styles*/
 .hobby-images{
   display: grid;
   margin-top: 5px;
@@ -137,6 +138,7 @@ section h2{
   width: var(--hobby-w);
 }
 
+/*placeholder for portfolio image*/
 .circle {
   position: relative;
   top: 20px;
@@ -150,6 +152,7 @@ section h2{
   background-size: contain;
 }
 
+/* responsive element for screen width <=600px */
 @media screen and (max-width:600px) {
   .page-wrapper{
     grid-template-rows: 0.25fr 2fr 3fr 2fr 1fr;
