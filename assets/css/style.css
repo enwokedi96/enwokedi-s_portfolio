@@ -6,7 +6,7 @@
 :root{
   --hobby-w: 20px;
   --hobby-h: 50px;
-  --sec-margin-top: 20px;
+  --sec-margin-top: 75px;
 }
 
 body {
@@ -29,6 +29,11 @@ h6 {
 h1{
   margin-left: 5px;
   font-size: 25px;
+}
+
+h2{
+  font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  font-size: 15px;
 }
 
 header {
@@ -61,6 +66,7 @@ nav ul > * {
   background-color: rgba(33, 62, 192, 0.5);
 }
 
+/*MAIN GRID*/
 .page-wrapper{
   margin: 20px;
   display: grid;
@@ -82,10 +88,10 @@ nav ul > * {
 
 #about{
   grid-area: about;
+  text-align: justify;
 }
 #about-title{
   grid-area: about-title;
-  margin-top: var(--sec-margin-top);
 }
 
 #coding-projects{
@@ -93,7 +99,6 @@ nav ul > * {
 }
 #coding-projects-title{
   grid-area: coding-projects-title;
-  margin-top: var(--sec-margin-top);
 }
 
 #cv{
@@ -101,7 +106,6 @@ nav ul > * {
 }
 #cv-title{
   grid-area: cv-title;
-  margin-top: var(--sec-margin-top);
 }
 
 #contact{
@@ -109,12 +113,16 @@ nav ul > * {
 }
 #contact-title{
   grid-area: contact-title;
-  margin-top: var(--sec-margin-top);
 }
 
-h2{
-  font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-  font-size: 15px;
+  /*common text position for subsections*/
+#about-title,
+#coding-projects-title,
+#cv-title,
+#contact-title
+{
+  margin-top: var(--sec-margin-top);
+  text-align: center;
 }
 
 /*hobby grid: image insertions and styles*/
