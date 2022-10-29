@@ -82,7 +82,7 @@ nav ul > * {
 #hero-banner h1{
   margin-top: 30px;
   font-size: 25px;
-  color: rgba(19, 17, 17, 0.972);
+  color: rgba(19, 17, 17, 0.928);
 }
 
 /*MAIN GRID*/
@@ -167,16 +167,19 @@ nav ul > * {
 
 /*placeholder for portfolio image*/
 .circle {
-  position: relative;
+  position:relative;
   top: 20px;
   left: 10px;
   margin-bottom: 10px;
-  border: solid black 5px;
+  border: solid peru 5px;
   border-radius: 50%;
   width: 200px;
   height: 200px; 
   background-image: url('/images/profile_img.jpg');
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* responsive element for screen width <=600px */
