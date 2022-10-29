@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
+/*variables: hobby cell, common margin for subsectiosn*/
 :root{
   --hobby-w: 20px;
   --hobby-h: 50px;
+  --sec-margin-top: 20px;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
   line-height: 1.5;
 }
 
+/*header and heading style edits*/
 h1,
 h2,
 h3,
@@ -34,6 +37,7 @@ header {
   align-items: center;
 }
 
+/*styles for top-page navigation elements*/
 nav ul > * {
   display: inline-flex;
   list-style-type: none;
@@ -46,6 +50,7 @@ nav ul > * {
   background-color: rgba(33, 62, 192, 0.5);
 }
 
+/*banner image for portfolio pic*/
 #hero-banner{
   margin-bottom: 20px;
   margin: 5px;
@@ -54,7 +59,6 @@ nav ul > * {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(33, 62, 192, 0.5);
-  
 }
 
 .page-wrapper{
@@ -81,6 +85,7 @@ nav ul > * {
 }
 #about-title{
   grid-area: about-title;
+  margin-top: var(--sec-margin-top);
 }
 
 #coding-projects{
@@ -88,6 +93,7 @@ nav ul > * {
 }
 #coding-projects-title{
   grid-area: coding-projects-title;
+  margin-top: var(--sec-margin-top);
 }
 
 #cv{
@@ -95,6 +101,7 @@ nav ul > * {
 }
 #cv-title{
   grid-area: cv-title;
+  margin-top: var(--sec-margin-top);
 }
 
 #contact{
@@ -102,6 +109,7 @@ nav ul > * {
 }
 #contact-title{
   grid-area: contact-title;
+  margin-top: var(--sec-margin-top);
 }
 
 section h2{
