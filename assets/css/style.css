@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root{
+  --hobby-w: 20px;
+  --hobby-h: 50px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -49,15 +54,24 @@ nav ul > * {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(33, 62, 192, 0.5);
+  
+}
+
+.page-wrapper{
+  margin: 20px;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr 1fr;
   grid-template-columns: 1fr 3fr;
   grid-template-areas: 
-      'blank About-Me'
+      'blank about'
       'Coding-Projects Coding-Projects'
       'CV CV'
       'Contact-Me Contact-Me'
       ;
+}
+
+#about{
+  grid-area: about;
 }
 
 section h2{
@@ -65,8 +79,24 @@ section h2{
   font-size: 15px;
 }
 
-p {
-  margin: 0;
+.hobby-images{
+  display: grid;
+  margin-top: 5px;
+  height: var(--hobby-h);
+  border: 2px solid peru;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+      'read'
+      'coding'
+      'manga'
+      'floating'
+      ;
+}
+
+.reading{
+  grid-area: read;
+  width: var(--hobby-w);
 }
 
 .circle {
@@ -83,12 +113,12 @@ p {
 }
 
 @media screen and (max-width:600px) {
-  #hero-banner{
-    grid-template-rows: 1fr 2fr 3fr 2fr 1fr;
+  .page-wrapper{
+    grid-template-rows: 0.25fr 2fr 3fr 2fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: 
       'blank'
-      'About-Me'
+      'about'
       'Coding-Projects'
       'CV'
       'Contact-Me'
