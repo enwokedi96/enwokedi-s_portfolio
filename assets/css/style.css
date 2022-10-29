@@ -67,7 +67,7 @@ nav ul > * {
   background-color: rgba(33, 62, 192, 0.5);
 }
 
-/*banner image for portfolio pic*/
+/*banner image and portfolio pic*/
 #hero-banner{
   margin-bottom: 20px;
   margin: 5px;
@@ -75,14 +75,31 @@ nav ul > * {
   background-image: url('/images/background_4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(33, 62, 192, 0.5);
   text-align: center;
+
 }
 
 #hero-banner h1{
   margin-top: 30px;
   font-size: 25px;
   color: rgba(19, 17, 17, 0.928);
+}
+
+ /*placeholder for portfolio image*/
+.circle {
+  position:relative;
+  top: 20px;
+  left: 10px;
+  margin-bottom: 10px;
+  border: solid peru 5px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  background-image: url('/images/profile_img.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /*MAIN GRID*/
@@ -163,23 +180,6 @@ nav ul > * {
 .reading{
   grid-area: read;
   width: var(--hobby-w);
-}
-
-/*placeholder for portfolio image*/
-.circle {
-  position:relative;
-  top: 20px;
-  left: 10px;
-  margin-bottom: 10px;
-  border: solid peru 5px;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px; 
-  background-image: url('/images/profile_img.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* responsive element for screen width <=600px */
