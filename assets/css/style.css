@@ -62,16 +62,46 @@ nav ul > * {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr 1fr;
   grid-template-columns: 1fr 3fr;
+  gap: 1em;
   grid-template-areas: 
-      'blank about'
-      'Coding-Projects Coding-Projects'
-      'CV CV'
-      'Contact-Me Contact-Me'
+      'about-title about'
+      'coding-projects-title coding-projects'
+      'cv-title cv'
+      'contact-title contact'
       ;
+}
+
+.paper-section{
+  background-color: aqua;
+  border: 5px solid gray;
 }
 
 #about{
   grid-area: about;
+}
+#about-title{
+  grid-area: about-title;
+}
+
+#coding-projects{
+  grid-area: coding-projects;
+}
+#coding-projects-title{
+  grid-area: coding-projects-title;
+}
+
+#cv{
+  grid-area: cv;
+}
+#cv-title{
+  grid-area: cv-title;
+}
+
+#contact{
+  grid-area: contact;
+}
+#contact-title{
+  grid-area: contact-title;
 }
 
 section h2{
@@ -119,9 +149,9 @@ section h2{
     grid-template-areas: 
       'blank'
       'about'
-      'Coding-Projects'
-      'CV'
-      'Contact-Me'
+      'coding-projects'
+      'cv'
+      'contact'
       ;
   }
 }
