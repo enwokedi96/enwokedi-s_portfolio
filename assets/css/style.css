@@ -5,7 +5,7 @@
 /*variables: hobby cell, common margin for subsectiosn*/
 :root{
   --hobby-w: 20px;
-  --hobby-h: 50px;
+  --hobby-h: 75px;
   --sec-margin-top: 75px;
   --new-grid-width600: 50px 1fr;
 }
@@ -41,8 +41,7 @@ h1 .re-hue{
 }
 
 h2{
-  font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 header {
@@ -87,9 +86,11 @@ nav ul > * {
 
  /*placeholder for portfolio image*/
 .circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position:relative;
   top: 20px;
-  left: 10px;
   margin-bottom: 10px;
   border: solid peru 5px;
   border-radius: 50%;
@@ -159,6 +160,7 @@ nav ul > * {
 {
   margin-top: var(--sec-margin-top);
   text-align: center;
+  font-size: 25px;
 }
 
 /*hobby grid: image insertions and styles*/
@@ -179,7 +181,6 @@ nav ul > * {
 
 .reading{
   grid-area: read;
-  width: var(--hobby-w);
 }
 
 /* responsive element for screen width <=600px */
