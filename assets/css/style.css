@@ -6,6 +6,7 @@
 :root{
   --hobby-w: 20px;
   --hobby-h: 75px;
+  --hobby-grid-pairs: 2fr 1fr;
   --sec-margin-top: 75px;
   --new-grid-width600: 50px 1fr;
 }
@@ -170,17 +171,30 @@ nav ul > * {
   height: var(--hobby-h);
   border: 2px solid peru;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: var(--hobby-grid-pairs) var(--hobby-grid-pairs) var(--hobby-grid-pairs) var(--hobby-grid-pairs);
   grid-template-areas: 
-      'read'
-      'coding'
-      'manga'
-      'floating'
+      'read''blank'
+      'coding''blank'
+      'manga''blank'
+      'wander''blank'
       ;
 }
 
-.reading{
+.space{
+  grid-area: blank;
+  font-size: 12px;
+}
+.read{
   grid-area: read;
+}
+.coding{
+  grid-area: coding;
+}
+.manga{
+  grid-area: manga;
+}
+.wander{
+  grid-area: wander;
 }
 
 /* responsive element for screen width <=600px */
