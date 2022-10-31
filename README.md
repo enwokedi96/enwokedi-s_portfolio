@@ -17,9 +17,9 @@ The screenshot of the webpage can be visualised below:
 Top of the page provides navigation tools allowing user to easily access sections in the body and at the bottom, there is a return to top button.
 The 'position' property is also set to sticky for section titles, allowing user to easily track current section while perusing. 
 The works in the 'coding-projects' section all link to other deployed repos and once clicked are opened in a new tab. 
-In addition, google doc containing cv was embedded in the 'curriculum vitae' section and is easily readable by in-frame scrolling.
+In addition, google doc containing my CV was embedded in the 'curriculum vitae' section and is easily readable by in-frame scrolling.
 
-The general webpage is made responsive when window is constricted to width of 600 pixels. All containing cells are 'flex'  enabled.
+The general webpage is made responsive when the window is constricted to width of 600 pixels. All containing cells are 'flex'  enabled.
     
 ## License
 
