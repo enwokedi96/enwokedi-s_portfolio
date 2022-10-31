@@ -107,9 +107,9 @@ nav ul > * {
 .page-wrapper{
   margin: 20px;
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr 0.2fr;
+  grid-template-rows: 1fr 1.5fr 1fr 0.2fr;
   grid-template-columns: 1fr 3fr;
-  grid-gap: 2em;
+  grid-gap: 1em;
   grid-template-areas: 
       'about-title about'
       'coding-projects-title coding-projects'
@@ -123,6 +123,7 @@ nav ul > * {
   border: 5px solid gray;
 }
 
+/*subsections and their headings*/
 #about{
   grid-area: about;
   text-align: justify;
@@ -158,13 +159,13 @@ nav ul > * {
 #cv-title,
 #contact-title
 {
-  border-collapse: collapse;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 5px;
   position: sticky;
+  text-align: center;
   background-color: bisque;
   text-decoration:underline;
 }
+
   /*vertical line*/
 .vert-line {
   border-left: 6px solid peru;
@@ -230,10 +231,9 @@ img {
   #cv-title,
   #contact-title
   {
-    margin-top: 25px;
+    margin-top: 15px;
   }
 }
-
 
 
 
