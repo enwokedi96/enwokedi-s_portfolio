@@ -75,11 +75,11 @@ nav ul > * {
   margin-bottom: 20px;
   margin: 5px;
   height: 270px;
-  background-image: url('/images/background_4.jpg');
-  background-size: cover;
+  width: auto;
+  background-image: url('/images/background_5.jpg');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
-
 }
 
 #hero-banner h1{
@@ -334,7 +334,7 @@ changes to 1 oh hovering cursor*/
     margin-top: 15px;
   }
   #footer{
-    margin: -250px;
+    margin-top: -250px;
   }
 
 }
