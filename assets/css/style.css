@@ -103,7 +103,7 @@ nav ul > * {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-/*MAIN GRID*/
+/*MAIN GRID: defining direct sections in html body*/
 .page-wrapper{
   margin: 20px;
   display: grid;
@@ -123,7 +123,7 @@ nav ul > * {
   border: 5px solid gray;
 }
 
-/*subsections and their headings*/
+/*linking subsections to predefined cell, styles for sections and their headings*/
 #about{
   grid-area: about;
   text-align: justify;
@@ -166,7 +166,7 @@ nav ul > * {
   text-decoration:underline;
 }
 
-  /*vertical line*/
+  /*vertical line for section titles*/
 .vert-line {
   border-left: 6px solid peru;
   left: 0px;
@@ -183,10 +183,10 @@ nav ul > * {
   border: 2px solid peru;
 }
 
+/*general image dim; affects hobby subsection*/
 img {
   width: 100px;
   height: 100px;
-  background-color: grey;
 }
 
 /*circular placeholder for contact icons*/
@@ -197,6 +197,7 @@ img {
   margin-right: 0px;
 }
 
+/*new image shape/dim, for icons only*/
 .icons img {
   background-color: whitesmoke;
   border-radius: 50%;
@@ -204,7 +205,7 @@ img {
   height: 75px;
 }
 
-/*capton size for all in-section labels*/
+/*capton size for all figure labels*/
 .caption{
   display: block;
   font-size: 12px;
@@ -227,6 +228,7 @@ img {
       ;
   }
 
+  /*increasing vertical spacing between sections for <=600px width*/
   #about-title,
   #coding-projects-title,
   #cv-title,
