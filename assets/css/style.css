@@ -119,7 +119,7 @@ nav ul > * {
       'coding-projects-title coding-projects'
       'cv-title cv'
       'contact-title contact'
-      'return-top return-top'
+      'footer footer'
       ;
 }
 
@@ -160,8 +160,8 @@ nav ul > * {
 
 /*footer and 'return' animation*/
 #footer {
-  grid-area: return-top;
-  max-height: 20px;
+  grid-area: footer;
+  max-height: 10px;
   display: inline-block;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
@@ -321,7 +321,7 @@ changes to 1 oh hovering cursor*/
       'cv'
       'contact-title'
       'contact'
-      'return-top'
+      'footer'
       ;
   }
 
@@ -333,6 +333,10 @@ changes to 1 oh hovering cursor*/
   {
     margin-top: 15px;
   }
+  #footer{
+    margin: -250px;
+  }
+
 }
 
 
