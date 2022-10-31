@@ -76,7 +76,7 @@ nav ul > * {
   margin: 5px;
   height: 270px;
   width: auto;
-  background-image: url('/images/background_5.jpg');
+  background-image: url('images/background_5.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
@@ -100,7 +100,7 @@ nav ul > * {
   border-radius: 50%;
   width: 200px;
   height: 200px; 
-  background-image: url('/images/profile_img.jpg');
+  background-image: url('images/profile_img.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
