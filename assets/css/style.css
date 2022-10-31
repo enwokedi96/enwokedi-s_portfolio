@@ -189,7 +189,18 @@ img {
   background-color: grey;
 }
 
+.icons {
+  display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
 
+.icons img {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
 
 .caption{
   display: block;
