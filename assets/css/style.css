@@ -189,16 +189,11 @@ img {
   background-color: grey;
 }
 
+
+
 .caption{
   display: block;
   font-size: 12px;
-}
-
-#coding{
-  content: 'programming';
-}
-#manga{
-  background-image:url('/images/hobby_anime_3.png')
 }
 
 #read,
