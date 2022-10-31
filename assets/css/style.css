@@ -4,7 +4,7 @@
 
 /*variables: hobby cell, common margin for subsectiosn*/
 :root{
-  --hobby-w: 20px;
+  --hobby-w: 120px;
   --hobby-h: 75px;
   --hobby-grid-pairs: 2fr 1fr;
   --sec-margin-top: 75px;
@@ -166,35 +166,37 @@ nav ul > * {
 
 /*hobby grid: image insertions and styles*/
 .hobby-images{
-  display: grid;
-  margin-top: 5px;
-  height: var(--hobby-h);
+  display: inline-block;
+	vertical-align: top;
+	text-align: center;
+  width: var(--hobby-w);
   border: 2px solid peru;
-  grid-template-rows: 1fr;
-  grid-template-columns: var(--hobby-grid-pairs) var(--hobby-grid-pairs) var(--hobby-grid-pairs) var(--hobby-grid-pairs);
-  grid-template-areas: 
-      'read''blank'
-      'coding''blank'
-      'manga''blank'
-      'wander''blank'
-      ;
 }
 
-.space{
-  grid-area: blank;
+img {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+
+.caption{
+  display: block;
   font-size: 12px;
 }
-.read{
-  grid-area: read;
+
+#coding{
+  content: 'programming';
 }
-.coding{
-  grid-area: coding;
+#manga{
+  background-image:url('/images/hobby_anime_3.png')
 }
-.manga{
-  grid-area: manga;
-}
-.wander{
-  grid-area: wander;
+
+#read,
+#coding,
+#manga,
+#game
+{
+  background-size: cover;
 }
 
 /* responsive element for screen width <=600px */
