@@ -243,6 +243,19 @@ img {
   background-size: contain;
 }
 
+#portfolio,
+#refactor,
+#bio {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+#portfolio:hover,
+#refactor:hover,
+#bio:hover {
+  opacity: 1;
+}
+
 /* responsive element for screen width <=600px */
 @media screen and (max-width:600px) {
   .page-wrapper{
