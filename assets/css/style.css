@@ -211,6 +211,38 @@ img {
   font-size: 12px;
 }
 
+/*subgrid for work/coding-projects section*/
+#coding-projects-work{
+  margin: 10px;
+  height: 95%;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas: 
+      'portfolio portfolio portfolio'
+      'portfolio portfolio portfolio'
+      'refactor refactor bio'
+      ;
+}
+
+#portfolio{
+  grid-area: portfolio;
+  background-image: url('../images/02-portfolio-1.jpg');
+  background-size: cover;
+  pointer-events:visible;
+}
+#refactor{
+  grid-area: refactor;
+  background-image: url('../images/02-portfolio-4.jpg');
+  background-size: cover;
+}
+#bio{
+  grid-area: bio;
+  background-image: url('../images/02-portfolio-3.jpg');
+  background-size: contain;
+}
+
 /* responsive element for screen width <=600px */
 @media screen and (max-width:600px) {
   .page-wrapper{
