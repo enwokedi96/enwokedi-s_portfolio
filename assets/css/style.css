@@ -193,6 +193,7 @@ img {
   display: inline-block;
 	vertical-align: top;
 	text-align: center;
+  margin-right: 0px;
 }
 
 .icons img {
