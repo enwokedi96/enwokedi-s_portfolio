@@ -11,8 +11,7 @@ Visit the live website [here](https://enwokedi96.github.io/enwokedi-s_portfolio/
 ## Usage
 
 The screenshot of the webpage can be visualised here: 
-|screnshot 1|screenshot 2|
-|<img alt="screenshot-1" src="images/screenshot_part_001.png" width=300/> |<img alt="screenshot-2" src="images/screenshot_part_002.png" width=300/>|
+<img alt="screenshot-1" src="images/screenshot_part_001.png" width=300/> <img alt="screenshot-2" src="images/screenshot_part_002.png" width=300/>
 
 Top of the page provides navigation tools allowing user to easily access sections in the body and at the bottom, there is a return to top button.
 The 'position' property is also set to sticky for section titles, allowing user to easily track current section while perusing. 
