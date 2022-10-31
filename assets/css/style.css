@@ -189,6 +189,7 @@ img {
   background-color: grey;
 }
 
+/*circular placeholder for contact icons*/
 .icons {
   display: inline-block;
 	vertical-align: top;
@@ -203,17 +204,10 @@ img {
   height: 75px;
 }
 
+/*capton size for all in-section labels*/
 .caption{
   display: block;
   font-size: 12px;
-}
-
-#read,
-#coding,
-#manga,
-#game
-{
-  background-size: cover;
 }
 
 /* responsive element for screen width <=600px */
