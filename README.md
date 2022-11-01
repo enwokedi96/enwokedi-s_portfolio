@@ -12,7 +12,7 @@ Visit the live website [here](https://enwokedi96.github.io/enwokedi-s_portfolio/
 
 The screenshot of the webpage can be visualised below: 
 
-<img alt="screenshot-1" src="assets/images/screenshot-part-001.png" width=400/> <img alt="screenshot-2" src="assets/images/screenshot-part-002.png" width=400/>
+<img alt="screenshot-1" src="assets/images/screenshot-part-001.png" width=360/> <img alt="screenshot-2" src="assets/images/screenshot-part-002.png" width=360/>
 
 Top of the page provides navigation tools allowing user to easily access sections in the body and at the bottom, there is a return to top button.
 The 'position' property is also set to sticky for section titles, allowing user to easily track current section while perusing. 
